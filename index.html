@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Saxena - Backend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MS</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Mayank Saxena</span>
+                </h1>
+                <h2 class="hero-subtitle">Backend Developer & System Architect</h2>
+                <p class="hero-description">
+                    Building scalable, distributed systems with 3+ years of experience in Golang, 
+                    GCP, Kubernetes, and microservices. Passionate about performance optimization 
+                    and leading cross-functional initiatives.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Experience</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/1xlblaze" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:mayanksaxena@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="code-animation">
+                    <div class="code-line">
+                        <span class="code-keyword">func</span> <span class="code-function">main</span>() {
+                    </div>
+                    <div class="code-line">
+                        &nbsp;&nbsp;<span class="code-variable">server</span> := <span class="code-function">NewServer</span>()
+                    </div>
+                    <div class="code-line">
+                        &nbsp;&nbsp;<span class="code-variable">server</span>.<span class="code-function">Start</span>()
+                    </div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        I'm a passionate Backend Developer with over 3 years of experience crafting 
+                        robust, scalable systems. My expertise lies in building distributed applications 
+                        that handle millions of requests while maintaining high performance and reliability.
+                    </p>
+                    <p>
+                        At TartanHQ, I've taken ownership of complex backend systems, including the 
+                        complete Account Aggregator integration. I've optimized services to achieve 
+                        30% performance improvements and implemented comprehensive monitoring solutions.
+                    </p>
+                    <p>
+                        Beyond coding, I'm an active contributor to open-source Go projects and have 
+                        published research papers in IEEE and Scopus journals. I believe in continuous 
+                        learning and mentoring others in backend development and DevOps practices.
+                    </p>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30%</div>
+                        <div class="stat-label">Performance Boost</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">Top 5%</div>
+                        <div class="stat-label">GitHub Contributor</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Research Papers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Engineer</h3>
+                            <span class="company">TartanHQ</span>
+                            <span class="duration">Dec 2021 - Present</span>
+                            <span class="location">Bangalore, India</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Built and owned the complete Account Aggregator integration system with Go and GCP</li>
+                            <li>Designed and implemented microservices for handling financial data securely</li>
+                            <li>Optimized backend services resulting in a 30% performance boost</li>
+                            <li>Implemented logging, alerting, and monitoring pipelines using ELK stack</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Engineer</h3>
+                            <span class="company">OpsLyft</span>
+                            <span class="duration">May 2021 - Nov 2021</span>
+                            <span class="location">Remote</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Integrated Prometheus for system monitoring and Grafana dashboards</li>
+                            <li>Worked on Infrastructure Cost Management systems using Python and Kubernetes</li>
+                            <li>Contributed to infrastructure automation using Terraform and GitHub Actions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">gRPC</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">NATS</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Cloud Platform</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">REST</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Publications & Research</h2>
+            <div class="publications-grid">
+                <div class="publication-card" data-aos="fade-up">
+                    <div class="publication-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Emotion Detection using BERT</h3>
+                    <p class="publication-journal">IEEE Access, 2021</p>
+                    <p class="publication-description">
+                        Research on advanced natural language processing techniques for emotion 
+                        detection using BERT architecture.
+                    </p>
+                </div>
+                
+                <div class="publication-card" data-aos="fade-up">
+                    <div class="publication-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Deep Learning-based COVID Spread Modelling</h3>
+                    <p class="publication-journal">Elsevier, 2020</p>
+                    <p class="publication-description">
+                        Novel approach to COVID-19 spread prediction using deep learning models 
+                        and epidemiological data analysis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. 
+                       Feel free to reach out if you'd like to discuss potential projects 
+                       or just want to say hello!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mayanksaxena@example.com">mayanksaxena@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/1xlblaze" target="_blank">github.com/1xlblaze</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mayank Saxena. Built with ❤️ and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

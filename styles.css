@@ -1163,3 +1163,48 @@ section {
     opacity: 1 !important;
     text-shadow: 0 2px 8px rgba(0,0,0,0.18);
 } 
+
+@media (max-width: 600px) {
+  .hero-stats {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .stat-number {
+    font-size: 2rem;
+  }
+  .hero-stat-label {
+    font-size: 1rem;
+  }
+  .code-split-animation {
+    flex-direction: column;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .left-block {
+    border-right: none;
+    border-bottom: 1.5px solid #374151;
+  }
+  .code-block {
+    padding: 1.2rem 0.7rem;
+  }
+  .code-title {
+    font-size: 0.98rem;
+  }
+  .about-stats {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .chip-card {
+    min-width: 90vw;
+    padding: 1.2rem 0.7rem;
+  }
+  .chip-header h3 {
+    font-size: 1.1rem;
+  }
+  .chip-metric {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.7rem;
+  }
+} 

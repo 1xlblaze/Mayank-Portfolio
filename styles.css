@@ -163,6 +163,32 @@ body {
     line-height: 1.7;
 }
 
+/* Hero Stats */
+.hero-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fbbf24;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    line-height: 1.3;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
@@ -396,10 +422,11 @@ section {
 }
 
 .timeline-achievements li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     padding-left: 1.5rem;
     position: relative;
     color: #4b5563;
+    line-height: 1.6;
 }
 
 .timeline-achievements li::before {
@@ -408,6 +435,88 @@ section {
     left: 0;
     color: #6366f1;
     font-weight: bold;
+}
+
+.timeline-achievements li strong {
+    color: #1f2937;
+}
+
+/* Projects Section */
+.projects {
+    background: #f8fafc;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    border-left: 4px solid #6366f1;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.project-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+}
+
+.project-category {
+    color: #6366f1;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-description {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 
 /* Skills Section */
@@ -454,8 +563,6 @@ section {
 }
 
 .skill-tag {
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
-    color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -463,8 +570,75 @@ section {
     transition: transform 0.3s ease;
 }
 
+.skill-tag.expert {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+}
+
+.skill-tag.familiar {
+    background: #f3f4f6;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+}
+
 .skill-tag:hover {
     transform: scale(1.05);
+}
+
+/* Achievements Section */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.achievement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    text-align: center;
+    border-top: 4px solid #6366f1;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.achievement-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.achievement-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+}
+
+.achievement-date {
+    color: #6366f1;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.achievement-description {
+    color: #6b7280;
+    line-height: 1.6;
 }
 
 /* Publications Section */
@@ -513,12 +687,33 @@ section {
 .publication-journal {
     color: #6366f1;
     font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.publication-date {
+    color: #6b7280;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
 }
 
 .publication-description {
     color: #6b7280;
     line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.publication-link {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.publication-link:hover {
+    color: #8b5cf6;
 }
 
 /* Contact Section */
@@ -653,6 +848,11 @@ section {
         font-size: 2.5rem;
     }
     
+    .hero-stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
@@ -685,7 +885,15 @@ section {
         margin-right: 0;
     }
     
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
     .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .achievements-grid {
         grid-template-columns: 1fr;
     }
     
@@ -712,6 +920,11 @@ section {
         font-size: 1.2rem;
     }
     
+    .hero-stats {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
     .btn {
         padding: 10px 20px;
         font-size: 0.9rem;
@@ -719,6 +932,12 @@ section {
     
     .code-animation {
         font-size: 0.9rem;
+        padding: 1.5rem;
+    }
+    
+    .project-card,
+    .achievement-card,
+    .publication-card {
         padding: 1.5rem;
     }
 } 

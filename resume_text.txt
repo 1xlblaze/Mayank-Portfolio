@@ -1,0 +1,101 @@
+Mayank Saxena
+mayankidmsaxena@gmail.com | Ghaziabad, Uttar Pradesh | +919354387004
+
+EDUCATION
+
+EXPERIENCE
+
+INDIAMART INTERMESH LIMITED | Engineer
+B.Tech. in Computer Science and March 2022 – present | Noida, IN
+• Critical Service Leadership: Managed and optimized the ”Buyleads Display”
+Engineering
+UNIVERSITY OF ALLAHABAD
+May 2018 - May 2022
+Prayagraj, Uttar-Pradesh , India
+CGPA: 9.225/10
+
+ST. FIDELIS SENIOR SECONDARY
+SCHOOL
+Intermediate
+Aligarh, UP, India
+PERCENTAGE: 91.6
+
+THREE DOTS SCHOOL
+High School
+Aligarh, UP, India
+CGPA: 10/10
+
+ACHIEVEMENTS
+• Employee of the Month (Jan 2025, Aug
+2023)
+• Best Performer of the Year (2023)
+• Best Performer of the Month - 6 times
+(Jun 2024, Jan 2024, Oct 2023, Mar
+2023, Nov 2022)
+• Continuous Excellence (Dec 2022)
+• Emerging Star of the Month (Jul 2022)
+
+SKILLS
+PROGRAMMING
+Experienced:
+Golang • Kubernetes • GCP • Docker •
+Kafka • RabbitMQ • C++ • PHP • Python
+• PostgreSQL • gRPC • pgx • AMP
+Familiar:
+BASH • C • R • MySQL
+
+TOOLS/APPLICATIONS
+Visual Studio • Jupyter • Git • MATLAB
+
+OPERATING SYSTEMS
+Linux • Windows • UNIX
+
+LINKS
+LinkedIn : linkedin.com/MayankSaxena
+GitHub : github.com/1xlblaze
+GeeksforGeeks: mayankidmsaxena
+LeetCode: mayankidmsaxena
+
+and ”Buylead Purchase” services, driving a 40% increase in transactions and a
+55% reduction in irrelevant leads, significantly enhancing client satisfaction
+and service reliability.
+• Innovative Microservice Development: Engineered 20+ microservices with
+0% delay rates, enhancing product transactions and user experience through
+efficient and timely delivery.
+• Infrastructure Optimization and Cost Reduction: Re-architected the Buylead
+Display infrastructure, achieving annual cost savings of 24.7 lacs. Migrated
+logs from RabbitMQ to Kafka, improving performance in high-throughput
+environments.
+• Dynamic Email Content Integration: Implemented AMP for dynamic email
+content, resulting in a 3.7% increase in transactions and a 27% boost in
+click-to-consumption rates, enhancing user engagement.
+• End-to-End Process Management and Optimization: Led the buyleads and
+enquiry process, integrating ’pgx’ for connection pooling, leading to a 60% P99
+response time reduction in Buylead Display services.
+• Strategic Service and API Re-architecture: Redesigned critical services and
+APIs, achieving a 35% reduction in resource utilization, cutting costs and
+enhancing transaction efficiency.
+• Advanced Technical Implementations: Optimized system performance with
+caching, connection pooling, locks, and multi-threading in Go, demonstrating
+scalability and efficiency.
+• Cloud Deployment Mastery: Successfully deployed 5+ services on Google
+Cloud Platform using Kubernetes, maximizing resource utilization and
+deployment efficiency.
+• Proactive Bug Resolution and Software Updates: Addressed and optimized
+100+ API stories, bug fixes, and software updates, aligning functionality with
+evolving client needs and industry standards.
+
+PUBLICATIONS
+• Tech Learning Session on Micro-Service and Optimization: Presented on June
+28, 2024, demonstrating advanced features and optimizations of the Buylead
+Display Service to enhance team knowledge and efficiency.
+• H. S. Donepudi, M. Saxena, Y. X. Yun, P. Jansirani, S. S. Sethi and B. G. Banik, ”A
+Comprehensive Study on Accident Detection Approaches,” 2022 IEEE Delhi
+Section Conference (DELCON), 2022, pp. 1-9, doi:
+10.1109/DELCON54057.2022.9753079.
+• M. Saxena and S. K. Jha, ”An Improved Procedure for Face Mask Detection
+using Convolution Neural Network,” 2022 International Conference on
+Decision Aid Sciences and Applications (DASA), 2022, pp. 316-320, doi:
+10.1109/DASA54658.2022.9764999.
+
+

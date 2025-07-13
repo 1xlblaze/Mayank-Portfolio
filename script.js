@@ -73,7 +73,6 @@ window.addEventListener('scroll', () => {
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
         
         // Get form data
         const formData = new FormData(this);
@@ -160,31 +159,29 @@ function showNotification(message, type = 'info') {
 }
 
 // Typing animation for hero title
-function typeWriter(element, text, speed = 100) {
-    let i = 0;
-    element.innerHTML = '';
-    
-    function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-    
-    type();
-}
+// function typeWriter(element, text, speed = 100) {
+//     let i = 0;
+//     element.innerHTML = '';
+//     function type() {
+//         if (i < text.length) {
+//             element.innerHTML += text.charAt(i);
+//             i++;
+//             setTimeout(type, speed);
+//         }
+//     }
+//     type();
+// }
 
 // Initialize typing animation when page loads
-window.addEventListener('load', () => {
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        const originalText = heroTitle.innerHTML;
-        setTimeout(() => {
-            typeWriter(heroTitle, originalText, 50);
-        }, 1000);
-    }
-});
+// window.addEventListener('load', () => {
+//     const heroTitle = document.querySelector('.hero-title');
+//     if (heroTitle) {
+//         const originalText = heroTitle.innerHTML;
+//         setTimeout(() => {
+//             typeWriter(heroTitle, originalText, 50);
+//         }, 1000);
+//     }
+// });
 
 // Parallax effect for hero section
 window.addEventListener('scroll', () => {
